@@ -1,5 +1,5 @@
 {
-  "name": "vue-quill-editor",
+  "name": "sinhang-vue-quill-editor",
   "description": "Quill editor component for Vue",
   "version": "3.0.6",
   "license": "MIT",
@@ -27,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/surmon-china/vue-quill-editor.git"
+    "url": "https://github.com/sinhang/vue-quill-editor.git"
   },
   "keywords": [
     "vue-quill-editor",
