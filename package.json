@@ -1,7 +1,7 @@
 {
   "name": "sinhang-vue-quill-editor",
   "description": "Quill editor component for Vue",
-  "version": "3.0.7",
+  "version": "3.0.8",
   "license": "MIT",
   "private": false,
   "author": {
@@ -10,9 +10,9 @@
     "url": "https://surmon.me"
   },
   "bugs": {
-    "url": "https://github.com/surmon-china/vue-quill-editor/issues"
+    "url": "https://github.com/sinhang/vue-quill-editor/issues"
   },
-  "homepage": "https://github.com/surmon-china/vue-quill-editor#readme",
+  "homepage": "https://github.com/sinhang/vue-quill-editor#readme",
   "main": "dist/vue-quill-editor.js",
   "unpkg": "dist/vue-quill-editor.js",
   "jsnext:main": "dist/vue-quill-editor.js",
