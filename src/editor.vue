@@ -150,7 +150,7 @@
         if (this.quill) {
           if (newVal && newVal !== this._content) {
             this._content = newVal
-            this.quill.pasteHTML(newVal)
+            this.quill.convertHTML(newVal)
           } else if(!newVal) {
             this.quill.setText('')
           }
@@ -161,7 +161,7 @@
         if (this.quill) {
           if (newVal && newVal !== this._content) {
             this._content = newVal
-            this.quill.pasteHTML(newVal)
+            this.quill.convertHTML(newVal)
           } else if(!newVal) {
             this.quill.setText('')
           }
