@@ -111,7 +111,7 @@
           // Set editor content
           if (this.value || this.content) {
             // this.quill.pasteHTML(this.value || this.content)
-            this.quill.convertHTML(this.value || this.content)
+            this.quill.setContents(this.value || this.content)
           }
 
           // Disabled editor
@@ -150,7 +150,7 @@
         if (this.quill) {
           if (newVal && newVal !== this._content) {
             this._content = newVal
-            this.quill.convertHTML(newVal)
+            this.quill.setContents(newVal)
           } else if(!newVal) {
             this.quill.setText('')
           }
@@ -161,7 +161,7 @@
         if (this.quill) {
           if (newVal && newVal !== this._content) {
             this._content = newVal
-            this.quill.convertHTML(newVal)
+            this.quill.setContents(newVal)
           } else if(!newVal) {
             this.quill.setText('')
           }

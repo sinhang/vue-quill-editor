@@ -1,7 +1,7 @@
 {
   "name": "sinhang-vue-quill-editor",
   "description": "Quill editor component for Vue",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "license": "MIT",
   "private": false,
   "author": {
